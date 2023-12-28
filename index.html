@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" >
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.main.js"></script>
+
+        <title>Recipe Book Website</title>
+        <script>
+        </script>
+    </head>
+    <body>
+       
+
+        <div class="landing-page">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="header-area">
+                <div class="logo">Recipe Book </div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" class="active" data-section=".landing-page">Home</a></li>
+                        <li><a href="#" class="" data-section=".about-us">About</a></li>
+                        <li><a href="#" data-section=".gallery" >Gallery</a></li>
+                        <li><a href="#" data-section=".recipes">Recipes</a></li>
+                        <li><a href="#" data-section=".contact">Contact</a></li>                    </ul>
+                    <buttom class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </buttom>
+                </div>
+            </div>
+            </div>
+            <div class="introduction-text">
+                <h1>we are <span>creative</span> agency</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="about-us">
+                <div class="info-box">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci optio nesciunt nihil labore laborum quia possimus repellat ipsam iste, sit eaque architecto laudantium maiores id assumenda incidunt debitis. Consectetur, inventore?</p>
+                </div>
+                <div class="image-box">
+                    <img src="image/11.jfif">
+                </div>
+            </div>
+        </div>
+        
+
+
+        <!-- start gallery -->
+        <div class="gallery">
+            <div class="container">
+                <h2>our gallery</h2>
+                <div class="images-box">
+                    <img src="" alt="img 1">
+                    <img src="" alt="img 2">
+                    <img src="" alt="img 3">
+                    <img src="" alt="img 4">
+                    <img src="" alt="img 5">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- model -->
+        <div class="model ">
+            <div class="popup">
+                <div class="popup-box">
+                    <form action="" class="add-form">
+                        <input type="text" class="pupinput1" placeholder="enter name of recipe">
+                        <input type="text" class="pupinput2" placeholder="enter image of recipe">
+                        <button class="add-buttom">Add</button>
+                        <button class="add-buttom edit">Edit</button>
+                    </form>
+                    <span class="close-button">x</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="recipes">
+            <div class="container">
+                <h2>Recipes</h2>
+                <div>
+                    <h3>Korean food</h3>
+                    <div style="display: flex;"><p style="padding: 10px;">We have put together the best Maharashtrian recipes that will make you wanting more. It’s so delicious that you must try it out!</p><i  class="fa-solid fa-circle-plus add" style="font-size: 30px;margin-left: 150px;color: #ff9800;"></i></div>
+                    
+                    <div class="think">
+                        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row row-cols-1 row-cols-md-3 g-4 create" style="overflow-x: scroll;">
+                                       
+                                        
+                                                
+                        
+                                    </div> 
+                                </div>
+                               
+                            </div>
+                            
+                            <button class="carousel-control-prev" style="margin-left: -50px;" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            
+                            <button class="carousel-control-next" style="margin-right: -100px;margin-top: 0;" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                    </div>   
+                </div>
+            </div>
+
+        </div>
+        <!-- Reciper -->
+
+        <!-- contact us -->
+        <div class="contact">
+            <div class="overlay"></div>
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="">
+                    <div class="left">
+                        <input type="text" placeholder="Name" name="user name">
+                        <input type="text" placeholder="Phone" name="user phone">
+                        <input type="email" placeholder="Email" name="user email">
+                        <input type="text" placeholder="Subject" name="subject">
+                    </div>
+                    <div class="right">
+                        <textarea name="message" placeholder="Your Message"></textarea>
+                        <input type="submit" value="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">created by nour</div>
+        <script src="js/style.js" type="module"></script>
+        <script src="js/jquery-3.6.1.min.js"> </script>
+        <script src="js/bootstrap.js" type="module"></script>
+
+
+    </body>
+</html>
